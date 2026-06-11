@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.egg-info/
+
+# Build / dist artifacts
+**/dist/
+**/build/
+**/.next/
+**/node_modules/
+**/.venv/
+**/target/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs / runtime
+*.log
+.playwright/
+*.pid
+.session_bus.sock
+
+# Secrets
+.env
+.env.local
+*.key
+*.pem
+hostinger.env
+
+# Local data
+/hermes_state.py
+/crons/
